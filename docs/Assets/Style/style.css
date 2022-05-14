@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: rgb(11, 46, 28);
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'PT serif', serif;
+    font-size: 2vw;
+    color: rgb(75, 146, 55);
+  }
+  
+  p {
+    margin: 0;
+    font-family: "Raleway";
+  }
+  
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 5% 25px 0;
+    text-decoration:none;
+    background-color: rgb(243, 182, 192);
+  }
+  
+  header h1 {
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 3vw;
+    color: rgb(53, 107, 60);
+    align-content: flex-start;
+    line-height: 1;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    text-decoration-color: rgb(11, 46, 28);
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-family: "Raleway";
+    padding: 5px 10px;
+    color: rgb(3, 44, 20);
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    background-size: 100% 100%;
+    color: rgba(8, 214, 128, 0.3);
+    text-shadow: 1px 1px;
+  }
+  
+  nav a:last-child {
+    margin-right: 0;
+  }
+  
+  main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+
+  span {
+    color: rgb(6, 90, 58);
+  }
+  
+  .hero-image {
+    background-image: url("../Images/IMG-0306.JPG");
+    background-size: cover;
+    background-position: center;
+    max-height: 1vh;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  .hero-image div {
+    flex: 0 0 90%;
+  }
+  
+  .hero-image h2 {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+  }
+  
+  .page {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .work-containers {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .work-containers > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px
+    font-size: 2vw;
+    line-height: 1.1;
+  }
+  
+  .work-containers > div {
+    flex: 0 0 77%;
+  }
+  
+  .work-containers p {
+    margin-bottom: 20px;
+    font-family: "Raleway";
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    border: 8px solid rgb(243, 182, 192);
+    background-color: rgba(8, 214, 128, 0.055);
+    min-height: 100px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    font-family: "Raleway";
+    font-size: 1rem;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 50%;
+  }
+  
+  /* feature first portfolio item */
+  .flex-item:first-child {
+      min-height: 400px;
+      flex-basis: 100%;
+  }
+  
+  .flex-item:hover {
+    background-color: rgba(9, 90, 56, 0.3);
+  }
+  
+  .flex-item div {
+    background-color: rgb(243, 182, 192);
+    padding: 8px 10px;
+  }
+  
+  .flex-item h3 {
+    font-size: 1.6rem;
+  }
+  
+  .contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact address a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-family: "Raleway";
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  .contact address a:hover {
+    font-size: 3vh;
+    background-size: 70% 60%;
+    opacity: 50%;
+    color: rgb(243, 182, 192);
+    font-family: "Raleway";
+  }
+  
+  /* portfolio project images */
+  .CO2eCalc {
+    background-image: url("../Images/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .ghub {
+    background-image: url("../Images/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .passwordGenerator {
+    background-image: url("../Images/img5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .LinkedIn {
+    background-image: url("../Images/img6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .codeQuiz {
+    background-image: url("../Images/img4.png");
+    image-resolution: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* end portfolio project images */
+  
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .work-containers > h2,
+    .work-containers > div {
+      flex: 0 0 100%;
+    }
+  
+    .work-containers > h2 {
+      border-right: none;
+      border-bottom: 4px rgb(11, 46, 28);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+      color: rgb(250, 149, 183);
+    }
+  }
